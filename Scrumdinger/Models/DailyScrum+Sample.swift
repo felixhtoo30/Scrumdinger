@@ -16,11 +16,11 @@ extension DailyScrum {
                    theme: .yellow),
         DailyScrum(title: "Development",
                    attendees: ["Cathy", "Daisy", "Simon", "Jonathan"],
-                   lengthInMinutes: 10,
+                   lengthInMinutes: 5,
                    theme: .orange),
-        DailyScrum(title: "Testing",
+        DailyScrum(title: "Web",
                    attendees: ["Cathy", "Daisy", "Simon", "Jonathan"],
-                   lengthInMinutes: 10,
+                   lengthInMinutes: 8,
                    theme: .oxblood)
     ]
 }

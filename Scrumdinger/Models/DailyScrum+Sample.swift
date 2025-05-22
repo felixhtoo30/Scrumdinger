@@ -17,10 +17,10 @@ extension DailyScrum {
         DailyScrum(title: "Development",
                    attendees: ["Cathy", "Daisy", "Simon", "Jonathan"],
                    lengthInMinutes: 10,
-                   theme: .yellow),
+                   theme: .orange),
         DailyScrum(title: "Testing",
                    attendees: ["Cathy", "Daisy", "Simon", "Jonathan"],
                    lengthInMinutes: 10,
-                   theme: .yellow)
+                   theme: .oxblood)
     ]
 }

@@ -32,6 +32,7 @@ struct DetailEditView: View {
                 }
                 .onDelete { indices in
                     // Remove attendee row
+                    print("Delete attendee at index: \(indices)")
                     scrum.attendees.remove(atOffsets: indices)
                 }
                 HStack {
